@@ -1,0 +1,1237 @@
+"wals.fname","new.fname","wals.levels","new.levels","recode.pattern","original.author","Feature.ID","Feature_Code"
+"4A Voicing in Plosives and Fricatives","VoicingC.Presence","1 No voicing contrast
+2 In plosives alone
+3 In fricatives alone
+4 In both plosives and fricatives","FALSE
+TRUE","1-2/3/4","Ian Maddieson",4,"MADVOI2"
+"4A Voicing in Plosives and Fricatives","VoicingC.Distribution","1 No voicing contrast
+2 In plosives alone
+3 In fricatives alone
+4 In both plosives and fricatives","only plosives
+only fricatives
+plosives and fricatives","2-3-4","Ian Maddieson",4,"MADVOI0"
+"6A Uvular Consonants","Uvulars.Presence","1 None
+2 Uvular stops only
+3 Uvular continuants only
+4 Uvular stops and continuants","FALSE
+TRUE","1-2/3/4","Ian Maddieson",6,"MADUVU2"
+"6A Uvular Consonants","Uvular.Distribution","1 None
+2 Uvular stops only
+3 Uvular continuants only
+4 Uvular stops and continuants","only stops
+only continuants
+stops and continuants","2-3-4","Ian Maddieson",6,"MADUVU0"
+"7A Glottalized Consonants","GlottalizedC.Presence","1 No glottalized consonants
+2 Ejectives only
+3 Implosives only
+4 Glottalized resonants only
+5 Ejectives and implosives
+6 Ejectives and glottalized resonants
+7 Implosives and glottalized resonants
+8 Ejectives, implosives, and glottalized resonants","FALSE
+TRUE","1-2/3/4/5/6/7/8","Ian Maddieson",7,"MADGLO0"
+"8A Lateral Consonants","LateralC.Distribution","1 No laterals
+2 /l/, no obstruent laterals
+3 Laterals, but no /l/, no obstruent laterals
+4 /l/ and lateral obstruent
+5 No /l/, but lateral obstruents","only /l/
+no /l/, no obstruents
+/l/ and obstruent
+only obstruents","2-3-4-5","Ian Maddieson",8,"MADLAT0"
+"9A The Velar Nasal","VelarNasal.Presence","1 Initial velar nasal
+2 No initial velar nasal
+3 No velar nasal","FALSE
+TRUE","3-1/2","Gregory D. S. Anderson",9,"ANDANG2"
+"9A The Velar Nasal","InitialVelarNasal.Presence","1 Initial velar nasal
+2 No initial velar nasal
+3 No velar nasal","TRUE
+FALSE","1-2","Gregory D. S. Anderson",9,"ANDANG0"
+"11A Front Rounded Vowels","FrontRndV.Presence","1 None
+2 High and mid
+3 High only
+4 Mid only","FALSE
+TRUE","1-2/3/4","Ian Maddieson",11,"MADFRV2"
+"11A Front Rounded Vowels","FrontRndV.Types","1 None
+2 High and mid
+3 High only
+4 Mid only","high and mid
+only high
+only mid","2-3-4","Ian Maddieson",11,"MADFRV0"
+"13A Tone","Tone.Presence","1 No tones
+2 Simple tone system
+3 Complex tone system","FALSE
+TRUE","1-2/3","Ian Maddieson",13,"MADTON02"
+"13A Tone","ToneComplexity","1 No tones
+2 Simple tone system
+3 Complex tone system","simple
+complex","2-3","Ian Maddieson",13,"MADTON01"
+"14A Fixed Stress Locations","FixedStress.Presence","1 No fixed stress
+2 Initial
+3 Second
+4 Third
+5 Antepenultimate
+6 Penultimate
+7 Ultimate","FALSE
+TRUE","1-2/3/4/5/6/7","Rob Goedemans and Harry van der Hulst",14,"GOEFIX2"
+"14A Fixed Stress Locations","FixedStressLocations","1 No fixed stress
+2 Initial
+3 Second
+4 Third
+5 Antepenultimate
+6 Penultimate
+7 Ultimate","initial
+second
+third
+antepenultimate
+penultimate
+ultimate","2-3-4-5-6-7","Rob Goedemans and Harry van der Hulst",14,"NA"
+"17A Rhythm Types","RhythmicStress.Presence","1 Trochaic
+2 Iambic
+3 Dual: both trochaic and iambic
+4 Undetermined
+5 No rhythmic stress","FALSE
+TRUE","5-1/2/3/4","Rob Goedemans and Harry van der Hulst",17,"GOERHY2"
+"17A Rhythm Types","RhythmicStress.binned2","1 Trochaic
+2 Iambic
+3 Dual: both trochaic and iambic
+4 Undetermined
+5 No rhythmic stress","trochaic
+iambic","1-2","Rob Goedemans and Harry van der Hulst",17,"GOERHY0"
+"19A Presence of Uncommon Consonants","SpecialC.Presence","1 None
+2 Clicks
+3 Labial-velars
+4 Pharyngeals
+5 'Th' sounds
+6 Clicks, pharyngeals, and 'th'
+7 Pharyngeals and ""th""","clicks
+labial-velars
+pharyngeals
+th-sounds
+clicks, pharyngeals, and th
+pharyngeals and th","2-3-4-5-6-7","Ian Maddieson",19,"MADPRS0"
+"26A Prefixing vs. Suffixing in Inflectional Morphology","InflAffixPositions","1 Little affixation
+2 Strongly suffixing
+3 Weakly suffixing
+4 Equal prefixing and suffixing
+5 Weakly prefixing
+6 Strong prefixing","suffixing
+equal prefixing and suffixing
+prefixing","2/3-4-5/6","Matthew S. Dryer",26,"DRYPRE0"
+"27A Reduplication","Reduplication.Presence","1 Productive full and partial reduplication
+2 Full reduplication only
+3 No productive reduplication","FALSE
+TRUE","3-1/2","Carl Rubino",27,"RUBRED2"
+"27A Reduplication","Reduplication.Types","1 Productive full and partial reduplication
+2 Full reduplication only
+3 No productive reduplication","productive full and partial
+only full reduplication","1-2","Carl Rubino",27,"RUBRED0"
+"28A Case Syncretism","CaseSyncretism.Presence","1 No case marking
+2 Core cases only
+3 Core and non-core
+4 No syncretism","FALSE
+TRUE","1/4-2/3","Matthew Baerman and Dunstan Brown",28,"BAECSY02"
+"28A Case Syncretism","CaseSyncretismExtent","1 No case marking
+2 Core cases only
+3 Core and non-core
+4 No syncretism","core
+all
+none","2-3-4","Matthew Baerman and Dunstan Brown",28,"BAECSY01"
+"29A Syncretism in Verbal Person/Number Marking","VSubjAgrSyncretism.Presence","1 No subject person/number marking
+2 Syncretic
+3 Not syncretic","FALSE
+TRUE","1/3-2","Matthew Baerman and Dunstan Brown",29,"BAEPSY01"
+"29A Syncretism in Verbal Person/Number Marking","VSubjAgr.Presence","1 No subject person/number marking
+2 Syncretic
+3 Not syncretic","FALSE
+TRUE","1-2/3","Matthew Baerman and Dunstan Brown",29,"BAEPSY02"
+"31A Sex-based and Non-sex-based Gender Systems","GenderBasis.v1","1 No gender
+2 Sex-based
+3 Non-sex-based","sex
+other","2-3","Greville G. Corbett",31,"CORSEX02"
+"31A Sex-based and Non-sex-based Gender Systems","Gender.Presence","1 No gender
+2 Sex-based
+3 Non-sex-based","FALSE
+TRUE","1-2/3","Greville G. Corbett",31,"CORSEX01"
+"32A Systems of Gender Assignment","GenderBasis.v2","1 No gender
+2 Semantic
+3 Semantic and formal","semantic
+semantic and formal","2-3","Greville G. Corbett",32,"CORASS01"
+"33A Coding of Nominal Plurality","NominalPlural.Presence.v1","1 Plural prefix
+2 Plural suffix
+3 Plural stem change
+4 Plural tone
+5 Plural complete reduplication
+6 Mixed morphological plural
+7 Plural word
+8 Plural clitic
+9 No plural","FALSE
+TRUE","9-1/2/3/4/5/7/8","Matthew S. Dryer",33,"DRYNPL2"
+"34A Occurrence of Nominal Plurality","HumanPluralOblig","1 No nominal plural
+2 Only human nouns, optional
+3 Only human nouns, obligatory
+4 All nouns, always optional
+5 All nouns, optional in inanimates
+6 All nouns, always obligatory","FALSE
+TRUE","1/2/4-3/5/6","Martin Haspelmath",34,"HASNPL22"
+"34A Occurrence of Nominal Plurality","NominalPlural.Presence.v2","1 No nominal plural
+2 Only human nouns, optional
+3 Only human nouns, obligatory
+4 All nouns, always optional
+5 All nouns, optional in inanimates
+6 All nouns, always obligatory","FALSE
+TRUE","1-2/3/4/5/6","Martin Haspelmath",34,"HASNPL21"
+"34A Occurrence of Nominal Plurality","NominalPlural.Distribution","1 No nominal plural
+2 Only human nouns, optional
+3 Only human nouns, obligatory
+4 All nouns, always optional
+5 All nouns, optional in inanimates
+6 All nouns, always obligatory","only humans, optional
+only humans, obligatory
+all nouns, always optional
+all nouns, optional in inanimates
+all nouns, always obligatory","2-3-4-5-6","Martin Haspelmath",34,"HASNPL0"
+"35A Plurality in Independent Personal Pronouns","IndepSubjPro.Presence","1 No independent subject pronouns
+2 Number-indifferent pronouns
+3 Person-number affixes
+4 Person-number stem
+5 Person-number stem + pronominal plural affix
+6 Person-number stem + nominal plural affix
+7 Person stem + pronominal plural affix
+8 Person stem + nominal plural affix","FALSE
+TRUE","1-2/3/4/5/6/7/8","Michael Daniel",35,"DANPLU02"
+"35A Plurality in Independent Personal Pronouns","ProStemCat","1 No independent subject pronouns
+2 Number-indifferent pronouns
+3 Person-number affixes
+4 Person-number stem
+5 Person-number stem + pronominal plural affix
+6 Person-number stem + nominal plural affix
+7 Person stem + pronominal plural affix
+8 Person stem + nominal plural affix","both person and number
+only person","4/5/6-7/8","Michael Daniel",35,"DANPLU03"
+"35A Plurality in Independent Personal Pronouns","ProPluralCoding.binned3","1 No independent subject pronouns
+2 Number-indifferent pronouns
+3 Person-number affixes
+4 Person-number stem
+5 Person-number stem + pronominal plural affix
+6 Person-number stem + nominal plural affix
+7 Person stem + pronominal plural affix
+8 Person stem + nominal plural affix","stem
+affix
+stem and affix","4-3/7/8-5/6","Michael Daniel",35,"DANPLU04 - check, Cazim did something on his own! recheck def, is weird"
+"35A Plurality in Independent Personal Pronouns","ProPluralAffixes","1 No independent subject pronouns
+2 Number-indifferent pronouns
+3 Person-number affixes
+4 Person-number stem
+5 Person-number stem + pronominal plural affix
+6 Person-number stem + nominal plural affix
+7 Person stem + pronominal plural affix
+8 Person stem + nominal plural affix","none
+pronominal form
+nominal form","3/4-5/7-6/8","Michael Daniel",35,"DANPLU05"
+"35A Plurality in Independent Personal Pronouns","ProPluralCoding","1 No independent subject pronouns
+2 Number-indifferent pronouns
+3 Person-number affixes
+4 Person-number stem
+5 Person-number stem + pronominal plural affix
+6 Person-number stem + nominal plural affix
+7 Person stem + pronominal plural affix
+8 Person stem + nominal plural affix","affixes
+stem
+person-number stem and pronominal affix
+person-number stem and nominal affix
+person and pronominal affix
+person stem  and nominal affix","3-4-5-6-7-8","Michael Daniel",35,"DANPLU01"
+"36A The Associative Plural","AssociativePlural.Presence","1 Associative same as additive plural
+2 Unique affixal associative plural
+3 Unique periphrastic associative plural
+4 No associative plural","FALSE
+TRUE","4-1/2/3","Michael Daniel and Edith Moravcsik",36,"MORASP2"
+"36A The Associative Plural","AssocPlural.Presence","1 Associative same as additive plural
+2 Unique affixal associative plural
+3 Unique periphrastic associative plural
+4 No associative plural","FALSE
+TRUE","1-2/3","Michael Daniel and Edith Moravcsik",36,"MORASP0"
+"37A Definite Articles","DefiniteMarking.Presence","1 Definite word distinct from demonstrative
+2 Demonstrative word used as definite article
+3 Definite affix
+4 No definite, but indefinite article
+5 No definite or indefinite article","FALSE
+TRUE","1/2/3-4/5","Matthew S. Dryer",37,"DRYDEF2"
+"37A Definite Articles","GrammaticalizedDefiniteArticle.Presence","1 Definite word distinct from demonstrative
+2 Demonstrative word used as definite article
+3 Definite affix
+4 No definite, but indefinite article
+5 No definite or indefinite article","FALSE
+TRUE","2/4/5-1/3","Matthew S. Dryer",37,"DRYDEF1"
+"37A Definite Articles","GrammaticalizedDefiniteWord.Presence","1 Definite word distinct from demonstrative
+2 Demonstrative word used as definite article
+3 Definite affix
+4 No definite, but indefinite article
+5 No definite or indefinite article","FALSE
+TRUE","2/3/4/5-1","Matthew S. Dryer",37,"DRYDEF3"
+"38A Indefinite Articles","IndefiniteArticle.Presence","1 Indefinite word distinct from 'one'
+2 Indefinite word same as 'one'
+3 Indefinite affix
+4 No indefinite, but definite article
+5 No definite or indefinite article","FALSE
+TRUE","4/5-1/2/3","Matthew S. Dryer",38,"DRYIND2"
+"39A Inclusive/Exclusive Distinction in Independent Pronouns","ProInclExclDistinction.Presence","1 No 'we'
+2 'We' the same as 'I'
+3 No inclusive/exclusive
+4 Only inclusive
+5 Inclusive/exclusive","FALSE
+TRUE","1/2/3-4/5","Michael Cysouw",39,"CYSIND2"
+"40A Inclusive/Exclusive Distinction in Verbal Inflection","VInclExclDistinction.Presence","1 No person marking
+2 'We' the same as 'I'
+3 No inclusive/exclusive
+4 Only inclusive
+5 Inclusive/exclusive","FALSE
+TRUE","1/2/3-4/5","Michael Cysouw",40,"CYSVRB2"
+"42A Pronominal and Adnominal Demonstratives","DemProAdnominalDistinction.Presence","1 Identical
+2 Different stem
+3 Different inflection","FALSE
+TRUE","1-2/3","Holger Diessel",42,"DIEPRO2"
+"43A Third Person Pronouns and Demonstratives","DemPersonProRelated.Presence","1 Unrelated
+2 Related for all demonstratives
+3 Related to remote demonstratives
+4 Related to non-remote demonstratives
+5 Related by gender markers
+6 Related for non-human reference","FALSE
+TRUE","1-2/3/4/5/6","D. N. S. Bhat",43,"BHADEM2"
+"44A Gender Distinctions in Independent Personal Pronouns","ProGender.Presence","1 In 3rd person + 1st and/or 2nd person
+2 3rd person only, but also non-singular
+3 3rd person singular only
+4 1st or 2nd person but not 3rd
+5 3rd person non-singular only
+6 No gender distinctions","FALSE
+TRUE","6-1/2/3/4/5","Anna Siewierska",44,"SIEGEN2"
+"44A Gender Distinctions in Independent Personal Pronouns","ProGender.Distribution","1 In 3rd person + 1st and/or 2nd person
+2 3rd person only, but also non-singular
+3 3rd person singular only
+4 1st or 2nd person but not 3rd
+5 3rd person non-singular only
+6 No gender distinctions","in 3rd person + 1st and/or 2nd person
+3rd person only, but also non-singular
+3rd person singular only
+1st or 2nd person but not 3rd
+3rd person non-singular only","1-2-3-4-5","Anna Siewierska",44,"SIEGEN0"
+"45A Politeness Distinctions in Pronouns","ProPolitenessDistinction.Presence","1 No politeness distinction
+2 Binary politeness distinction
+3 Multiple politeness distinctions
+4 Pronouns avoided for politeness","FALSE
+TRUE","1-2/3/4","Johannes Helmbrecht",45,"HELPOL0"
+"48A Person Marking on Adpositions","AdpPersonMarking","1 No adpositions
+2 No person marking
+3 Pronouns only
+4 Pronouns and nouns","none
+pronouns only
+pronouns and nouns","2-3-4","Dik Bakker",48,"BAKADP02"
+"48A Person Marking on Adpositions","AdpPersonMarking.Presence","1 No adpositions
+2 No person marking
+3 Pronouns only
+4 Pronouns and nouns","FALSE
+TRUE","2-3/4","Dik Bakker",48,"BAKADP01"
+"49A Number of Cases","Case.n","1 No morphological case-marking
+2 2 cases
+3 3 cases
+4 4 cases
+5 5 cases
+6 6-7 cases
+7 8-9 cases
+8 10 or more cases
+9 Exclusively borderline case-marking","0-1
+2
+3
+4
+5
+6-7
+8-9
+10+ or more cases","1/9-2-3-4-5-6-7-8","Oliver A. Iggesen",49,"IGGNUM2"
+"49A Number of Cases","CaseMarkingConsistent.Presence","1 No morphological case-marking
+2 2 cases
+3 3 cases
+4 4 cases
+5 5 cases
+6 6-7 cases
+7 8-9 cases
+8 10 or more cases
+9 Exclusively borderline case-marking","FALSE
+TRUE","1/9-2/3/4/5/6/7/8","Oliver A. Iggesen",49,"IGGNUM0"
+"51A Position of Case Affixes","CasePosition.v1","1 Case suffixes
+2 Case prefixes
+3 Case tone
+4 Case stem change
+5 Mixed morphological case
+6 Postpositional clitics
+7 Prepositional clitics
+8 Inpositional clitics
+9 No case affixes or adpositional clitics","pre
+post
+in","2/7-1/6-4/8","Matthew S. Dryer",51,"DRYCAS3"
+"51A Position of Case Affixes","CaseMarkingTypes.v1","1 Case suffixes
+2 Case prefixes
+3 Case tone
+4 Case stem change
+5 Mixed morphological case
+6 Postpositional clitics
+7 Prepositional clitics
+8 Inpositional clitics
+9 No case affixes or adpositional clitics","tightly bound
+loosely bound","1/2/3/4/5-6/7/8","Matthew S. Dryer",51,"DRYCAS2"
+"51A Position of Case Affixes","CaseMarkingTypes.v2","1 Case suffixes
+2 Case prefixes
+3 Case tone
+4 Case stem change
+5 Mixed morphological case
+6 Postpositional clitics
+7 Prepositional clitics
+8 Inpositional clitics
+9 No case affixes or adpositional clitics","tonal
+segmental","3-1/2/4/5/6/7/8","Matthew S. Dryer",51,"DRYCAST"
+"51A Position of Case Affixes","CaseMarkingPosition.v2","1 Case suffixes
+2 Case prefixes
+3 Case tone
+4 Case stem change
+5 Mixed morphological case
+6 Postpositional clitics
+7 Prepositional clitics
+8 Inpositional clitics
+9 No case affixes or adpositional clitics","pre
+other","2/7-1/3/4/5/6/8","Matthew S. Dryer",51,"DRYCASB"
+"51A Position of Case Affixes","CaseMarking.Presence","1 Case suffixes
+2 Case prefixes
+3 Case tone
+4 Case stem change
+5 Mixed morphological case
+6 Postpositional clitics
+7 Prepositional clitics
+8 Inpositional clitics
+9 No case affixes or adpositional clitics","FALSE
+TRUE","1/2/3/4/5/6/7/8-9","Matthew S. Dryer",51,"DRYCAS0"
+"53A Ordinal Numerals","Ordinals","1 None
+2 One, two, three
+3 First, two, three
+4 One-th, two-th, three-th
+5 First/one-th, two-th, three-th
+6 First, two-th, three-th
+7 First, second, three-th
+8 Various","one-th, two-th, three-th
+first/one-th, two-th, three-th
+first, two-th, three-th
+first, second, three-th
+various","4-5-6-7-8","Thomas Stolz and Ljuba N. Veselinova",53,"STOORD0"
+"54A Distributive Numerals","DistributiveNumeralsMarking","1 No distributive numerals
+2 Marked by reduplication
+3 Marked by prefix
+4 Marked by suffix
+5 Marked by preceding word
+6 Marked by following word
+7 Marked by mixed or other strategies","reduplication
+prefix
+suffix
+preceding word
+following word
+mixed or other strategies","2-3-4-5-6-7","David Gil",54,"GILDIS0"
+"55A Numeral Classifiers","NumClassifiers.Presence","1 Absent
+2 Optional
+3 Obligatory","FALSE
+TRUE","1-2/3","David Gil",55,"GILCLF21"
+"55A Numeral Classifiers","ObligatoryNumClassifiers.Presence","1 Absent
+2 Optional
+3 Obligatory","TRUE
+FALSE","3-1/2","David Gil",55,"GILCLF22"
+"56A Conjunctions and Universal Quantifiers","ConjunctionsUniversalQuantDiff.Presence","1 Formally different
+2 Formally similar, without interrogative
+3 Formally similar, with interrogative","FALSE
+TRUE","2/3-1","David Gil",56,"GILCUQ2"
+"57A Position of Pronominal Possessive Affixes","PossAffixes.Presence","1 Possessive prefixes
+2 Possessive suffixes
+3 Prefixes and suffixes
+4 No possessive affixes","FALSE
+TRUE","4-1/2/3","Matthew S. Dryer",57,"DRYPOS2"
+"57A Position of Pronominal Possessive Affixes","PossAffixesPosition","1 Possessive prefixes
+2 Possessive suffixes
+3 Prefixes and suffixes
+4 No possessive affixes","pre
+post
+pre and post","1-2-3","Matthew S. Dryer",57,"DRYPOS0"
+"60A Genitives, Adjectives and Relative Clauses","GenAdjRelDifferentiation","1 Weakly differentiated
+2 Genitives and adjectives collapsed
+3 Genitives and relative clauses collapsed
+4 Adjectives and relative clauses collapsed
+5 Moderately differentiated in other ways
+6 Highly differentiated","weak
+moderate
+high","1-2/3/4/5-6","David Gil",60,"GILDIF3"
+"61A Adjectives without Nouns","HeadlessAdjMarking.Required","1 Not without noun
+2 Without marking
+3 Marked by prefix
+4 Marked by suffix
+5 Marked by preceding word
+6 Marked by following word
+7 Marked by mixed or other strategies","TRUE
+FALSE","2-3/4/5/6/7","David Gil",61,"GILAWN0"
+"62A Action Nominal Constructions","ActionNominals","1 Sentential
+2 Possessive-Accusative
+3 Ergative-Possessive
+4 Double-Possessive
+5 Other
+6 Mixed
+7 Restricted
+8 No action nominals","sentential
+possessive-Accusative
+ergative-Possessive
+double-Possessive","1-2-3-4","Maria Koptjevskaja-Tamm",62,"KOPNOM0"
+"66A The Past Tense","PastTense.Presence","1 Present, no remoteness distinctions
+2 Present, 2-3 remoteness distinctions
+3 Present, 4 or more remoteness distinctions
+4 No past tense","FALSE
+TRUE","4-1/2/3","Östen Dahl and Viveka Velupillai",66,"DAHPAS2"
+"66A The Past Tense","PastTenseDist","1 Present, no remoteness distinctions
+2 Present, 2-3 remoteness distinctions
+3 Present, 4 or more remoteness distinctions
+4 No past tense","no remoteness distinctions
+2-3 remoteness distinctions
+4 or more remoteness distinctions","1-2-3","Östen Dahl and Viveka Velupillai",66,"DAHPAS0"
+"68A The Perfect","Perfect.Presence","1 From possessive
+2 From 'finish', 'already'
+3 Other perfect
+4 No perfect","FALSE
+TRUE","4-1/2/3","Östen Dahl and Viveka Velupillai",68,"DAHPFC2"
+"68A The Perfect","Perfect.Types.v1","1 From possessive
+2 From 'finish', 'already'
+3 Other perfect
+4 No perfect","from possessive
+other","1-2/3","Östen Dahl and Viveka Velupillai",68,"DAHPFC1"
+"68A The Perfect","Perfect.Types.v2","1 From possessive
+2 From 'finish', 'already'
+3 Other perfect
+4 No perfect","from 'finish', 'already'
+other","2-1/3","Östen Dahl and Viveka Velupillai",68,"DAHPFC3"
+"68A The Perfect","PerfectTypes","1 From possessive
+2 From 'finish', 'already'
+3 Other perfect
+4 No perfect","from possessive
+from 'finish', 'already'
+other","1-2-3","Östen Dahl and Viveka Velupillai",68,"DAHPFC0"
+"69A Position of Tense-Aspect Affixes","TAInfl.Presence","1 Tense-aspect prefixes
+2 Tense-aspect suffixes
+3 Tense-aspect tone
+4 Mixed type
+5 No tense-aspect inflection","FALSE
+TRUE","5-1/2/3/4","Matthew S. Dryer",69,"DRYTAA2"
+"70A The Morphological Imperative","MorphImperative.Presence","1 Second singular and second plural
+2 Second singular
+3 Second plural
+4 Second person number-neutral
+5 No second-person imperatives","FALSE
+TRUE","5-1/2/3/4","Johan van der Auwera and Ludo Lejeune (with Umarani Pappuswamy and Valentin Goussev)",70,"AUWIMP2"
+"71A The Prohibitive","ProhibitiveAsImperative","1 Normal imperative + normal negative
+2 Normal imperative + special negative
+3 Special imperative + normal negative
+4 Special imperative + special negative","prohibitive uses the normal verbal imperative
+prohibitive has a dedicated verb form","1/2-3/4","Johan van der Auwera and Ludo Lejeune (with Valentin Goussev)",71,"AUWPRH22"
+"71A The Prohibitive","DedicatedProhibitive.Presence","1 Normal imperative + normal negative
+2 Normal imperative + special negative
+3 Special imperative + normal negative
+4 Special imperative + special negative","FALSE
+TRUE","1-2/3/4","Johan van der Auwera and Ludo Lejeune (with Valentin Goussev)",71,"AUWPRH21"
+"74A Situational Possibility","SitPossibilityAffix.Presence","1 Affixes on verbs
+2 Verbal constructions
+3 Other kinds of markers","FALSE
+TRUE","2/3-1","Johan van der Auwera and Andreas Ammann",74,"AUWSIT2"
+"75A Epistemic Possibility","EpistPossibilityExpression","1 Verbal constructions
+2 Affixes on verbs
+3 Other","verbal constructions available
+verbal constructions unavailable","1-2/3","Johan van der Auwera and Andreas Ammann",75,"AUWEPI2"
+"76A Overlap between Situational and Epistemic Modal Marking","OverlapSitEpistMarking","1 Overlap for both possibility and necessity
+2 Overlap for either possibility or necessity
+3 No overlap","overlap for both possibility and necessity
+overlap for either possibility or necessity","1-2","Johan van der Auwera and Andreas Ammann",76,"AUWSEM0"
+"77A Semantic Distinctions of Evidentiality","GrammEvidentials.Presence","1 No grammatical evidentials
+2 Indirect only
+3 Direct and indirect","FALSE
+TRUE","1-2/3","Ferdinand de Haan",77,"HAAEVD2"
+"78A Coding of Evidentiality","EvidentialityCoding","1 No grammatical evidentials
+2 Verbal affix or clitic
+3 Part of the tense system
+4 Separate particle
+5 Modal morpheme
+6 Mixed","verbal affix or clitic
+part of the tense system
+separate particle
+modal morpheme
+mixed","2-3-4-5-6","Ferdinand de Haan",78,"HAAEVC0"
+"79A Suppletion According to Tense and Aspect","SuppletionTenseAspect","1 Tense
+2 Aspect
+3 Tense and aspect
+4 None","tense
+aspect
+tense and aspect","1-2-3","Ljuba N. Veselinova",79,"VESTAM0"
+"79A Suppletion According to Tense and Aspect","TenseAspectSuppletion.Presence","1 Tense
+2 Aspect
+3 Tense and aspect
+4 None","FALSE
+TRUE","4-1/2/3","Ljuba N. Veselinova",79,"VESTAM2"
+"80A Verbal Number and Suppletion","VerbalNumberSuppletion.Presence","1 None
+2 Singular-plural pairs, no suppletion
+3 Singular-plural pairs, suppletion
+4 Singular-dual-plural triples, no suppletion
+5 Singular-dual-plural triples, suppletion","FALSE
+TRUE","2/4-3/5","Ljuba N. Veselinova",80,"VESNUM0"
+"81A Order of Subject, Object and Verb","VInitialOrder","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","V initial
+other
+mixed","3/4-1/2/5/6-7","Matthew S. Dryer",81,"DRYSOV1"
+"81A Order of Subject, Object and Verb","VerbMedialOrder","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","V medial
+other
+mixed","2/5-1/3/4/6-7","Matthew S. Dryer",81,"DRYSOV2"
+"81A Order of Subject, Object and Verb","VerbFinalFreeOrder","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","V final or free
+other","1/6/7-2/3/4/5","Matthew S. Dryer",81,"DRYSOV3"
+"81A Order of Subject, Object and Verb","VerbFinalOrder","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","V final
+other","1/6-2/3/4/5","Matthew S. Dryer",81,"DRYSOV4"
+"81A Order of Subject, Object and Verb","WordOrderStrict","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","SOV
+SVO
+VSO
+VOS
+OVS
+OSV","1-2-3-4-5-6","Matthew S. Dryer",81,"DRYSOV0"
+"81A Order of Subject, Object and Verb","SOOrder","1 SOV
+2 SVO
+3 VSO
+4 VOS
+5 OVS
+6 OSV
+7 No dominant order","S before O
+O before S
+mixed","1/2/3-4/5/6-7","Matthew S. Dryer",81,"DRYSOV5"
+"82A Order of Subject and Verb","SVOrder","1 SV
+2 VS
+3 No dominant order","SV
+VS","1-2","Matthew S. Dryer",82,"DRYSBV0"
+"83A Order of Object and Verb","OVOrder","1 OV
+2 VO
+3 No dominant order","OV
+VO","1-2","Matthew S. Dryer",83,"DRYOBV0"
+"84A Order of Object, Oblique, and Verb","OVOblOrder","1 VOX
+2 XVO
+3 XOV
+4 OXV
+5 OVX
+6 No dominant order","VOX
+XVO
+XOV
+OXV
+OVX","1-2-3-4-5","Matthew S. Dryer",84,"DRYXOV0"
+"85A Order of Adposition and Noun Phrase","AdpOrder","1 Postpositions
+2 Prepositions
+3 Inpositions
+4 No dominant order
+5 No adpositions","post
+pre","1-2","Matthew S. Dryer",85,"DRYADP01"
+"85A Order of Adposition and Noun Phrase","AdpOrder.binned3","1 Postpositions
+2 Prepositions
+3 Inpositions
+4 No dominant order
+5 No adpositions","post
+pre
+in","1-2-3","Matthew S. Dryer",85,"DRYADP0"
+"86A Order of Genitive and Noun","GenNOrder","1 Genitive-Noun
+2 Noun-Genitive
+3 No dominant order","genitive-noun
+noun-genitive","1-2","Matthew S. Dryer",86,"DRYGEN0"
+"87A Order of Adjective and Noun","AdjNounOrder","1 Adjective-Noun
+2 Noun-Adjective
+3 No dominant order
+4 Only internally-headed relative clauses","adjective-noun
+noun-adjective","1-2","Matthew S. Dryer",87,"DRYADJ0"
+"88A Order of Demonstrative and Noun","DemNounOrder","1 Demonstrative-Noun
+2 Noun-Demonstrative
+3 Demonstrative prefix
+4 Demonstrative suffix
+5 Demonstrative before and after Noun
+6 Mixed","dem-noun
+noun-dem","1/3-2/4","Matthew S. Dryer",88,"DRYDEM0"
+"89A Order of Numeral and Noun","NumNounOrder","1 Numeral-Noun
+2 Noun-Numeral
+3 No dominant order
+4 Numeral only modifies verb","num-noun
+noun-num","1-2","Matthew S. Dryer",89,"DRYNUM0"
+"90A Order of Relative Clause and Noun","RelativeClausePosition","1 Noun-Relative clause
+2 Relative clause-Noun
+3 Internally headed
+4 Correlative
+5 Adjoined
+6 Doubly headed
+7 Mixed","prenominal
+postnominal
+circumnominal","1-2-3/4/6","Matthew S. Dryer",90,"DRYREL0"
+"91A Order of Degree Word and Adjective","DegWordAdjOrder","1 Degree word-Adjective
+2 Adjective-Degree word
+3 No dominant order","degree word-adjective
+adjective-degree word","1-2","Matthew S. Dryer",91,"DRYDEG0"
+"92A Position of Polar Question Particles","PolarQParticlePosition","1 Initial
+2 Final
+3 Second position
+4 Other position
+5 In either of two positions
+6 No question particle","initial
+final
+second position
+other position
+in either of two positions","1-2-3-4-5","Matthew S. Dryer",92,"DRYPQP02"
+"93A Position of Interrogative Phrases in Content Questions","ContentQPhrasesPosition","1 Initial interrogative phrase
+2 Not initial interrogative phrase
+3 Mixed","initial
+other","1-2","Matthew S. Dryer",93,"DRYCOQ0"
+"94A Order of Adverbial Subordinator and Clause","AdvSubordinatorPosition","1 Initial subordinator word
+2 Final subordinator word
+3 Internal subordinator word
+4 Subordinating suffix
+5 Mixed","pre
+post
+in","1-2/4-3","Matthew S. Dryer",94,"DRYOSC0"
+"98A Alignment of Case Marking of Full Noun Phrases","NPCaseAlignment.v1","1 Neutral
+2 Nominative - accusative (standard)
+3 Nominative - accusative (marked nominative)
+4 Ergative - absolutive
+5 Tripartite
+6 Active-inactive","accusative
+ergative
+tripartite
+active","2/3-4-5-6","Bernard Comrie",98,"COMALN4"
+"98A Alignment of Case Marking of Full Noun Phrases","NPCaseAlignment.v2","1 Neutral
+2 Nominative - accusative (standard)
+3 Nominative - accusative (marked nominative)
+4 Ergative - absolutive
+5 Tripartite
+6 Active-inactive","accusative (standard)
+accusative (marked nominative)
+ergative
+tripartite
+active","2-3-4-5-6","Bernard Comrie",98,"COMALN5"
+"98A Alignment of Case Marking of Full Noun Phrases","NPAvsOCase.Presence","1 Neutral
+2 Nominative - accusative (standard)
+3 Nominative - accusative (marked nominative)
+4 Ergative - absolutive
+5 Tripartite
+6 Active-inactive","TRUE
+FALSE","1-2/3/4/5/6","Bernard Comrie",98,"COMALN2"
+"99A Alignment of Case Marking of Pronouns","ProAlignment","1 Neutral
+2 Nominative - accusative (standard)
+3 Nominative - accusative (marked nominative)
+4 Ergative - absolutive
+5 Tripartite
+6 Active - inactive
+7 None","accusative
+ergative
+tripartite
+active","2/3-4-5-6","Bernard Comrie",99,"COMALP4"
+"99A Alignment of Case Marking of Pronouns","ProAvsOCase.Presence","1 Neutral
+2 Nominative - accusative (standard)
+3 Nominative - accusative (marked nominative)
+4 Ergative - absolutive
+5 Tripartite
+6 Active - inactive
+7 None","TRUE
+FALSE","1-2/3/4/5/6","Bernard Comrie",99,"COMALP2"
+"100A Alignment of Verbal Person Marking","AgrAvsO.Presence","1 Neutral
+2 Accusative
+3 Ergative
+4 Active
+5 Hierarchical
+6 Split","FALSE
+TRUE","1-2/3/4","Anna Siewierska",100,"SIEALI"
+"101A Expression of Pronominal Subjects","ObligatorySubjectPro.Presence","1 Obligatory pronouns in subject position
+2 Subject affixes on verb
+3 Subject clitics on variable host
+4 Subject pronouns in different position
+5 Optional pronouns in subject position
+6 Mixed","TRUE
+FALSE","1-2/3/4/5","Matthew S. Dryer",101,"DRYPRO3"
+"101A Expression of Pronominal Subjects","SubjectProExpression","1 Obligatory pronouns in subject position
+2 Subject affixes on verb
+3 Subject clitics on variable host
+4 Subject pronouns in different position
+5 Optional pronouns in subject position
+6 Mixed","obligatory pronouns in subject position
+subject affixes on verb
+subject clitics on variable host
+subject pronouns in different position
+optional pronouns in subject position","1-2-3-4-5","Matthew S. Dryer",101,"DRYPRO0"
+"102A Verbal Person Marking","VAgrPolypersonal.Presence","1 No person marking
+2 Only the A argument
+3 Only the P argument
+4 A or P argument
+5 Both the A and P arguments","FALSE
+TRUE","1/2/3/4-5","Anna Siewierska",102,"SIEVPA2"
+"102A Verbal Person Marking","VAgrA.Presence","1 No person marking
+2 Only the A argument
+3 Only the P argument
+4 A or P argument
+5 Both the A and P arguments","FALSE
+TRUE","1/3-2/5","Anna Siewierska",102,"SIEVPA3"
+"102A Verbal Person Marking","VAgrP.Presence","1 No person marking
+2 Only the A argument
+3 Only the P argument
+4 A or P argument
+5 Both the A and P arguments","TRUE
+FALSE","1/2-3/5","Anna Siewierska",102,"SIEVPA4"
+"102A Verbal Person Marking","VAgr.Presence","1 No person marking
+2 Only the A argument
+3 Only the P argument
+4 A or P argument
+5 Both the A and P arguments","FALSE
+TRUE","1-2/3/4/5","Anna Siewierska",102,"SIEVPA01"
+"103A Third Person Zero of Verbal Person Marking","VAgrS.Presence","1 No person marking
+2 No zero realization
+3 Zero in some 3sg forms
+4 Zero in all 3sg forms
+5 Zero in all 3rd person forms
+6 Zero only in 3rd nonsingular","FALSE
+TRUE","1-2/3/4/5/6","Anna Siewierska",103,"SIEZER2"
+"104A Order of Person Markers on the Verb","VAgrPolypersonal.Presence.v2","1 A and P do not or do not both occur on the verb
+2 A precedes P
+3 P precedes A
+4 Both orders of A and P occur
+5 A and P are fused","FALSE
+TRUE","1-2/3/4/5","Anna Siewierska",104,"SIEAPV2"
+"104A Order of Person Markers on the Verb","VAgrOrder","1 A and P do not or do not both occur on the verb
+2 A precedes P
+3 P precedes A
+4 Both orders of A and P occur
+5 A and P are fused","A precedes P
+P precedes A","2-3","Anna Siewierska",104,"SIEAPV0"
+"105A Ditransitive Constructions: The Verb 'Give'","Give.Alignment","1 Indirect-object construction
+2 Double-object construction
+3 Secondary-object construction
+4 Mixed","indirect-object
+double-object
+secondary-object","1-2-3","Anna Siewierska",105,"HASDIT0"
+"106A Reciprocal Constructions","NonIconicReciprocal.Presence","1 No reciprocals
+2 Distinct from reflexive
+3 Mixed
+4 Identical to reflexive","FALSE
+TRUE","1-2/3/4","Elena Maslova and Vladimir Nedjalkov",106,"MASREC2"
+"108A Antipassive Constructions","Antipassive.Presence","1 Implicit patient
+2 Oblique patient
+3 No antipassive","FALSE
+TRUE","1/2-3","Maria Polinsky",108,"POLANT2"
+"109A Applicative Constructions","Applicative.Presence","1 Benefactive object; both bases
+2 Benefactive object; only transitive
+3 Benefactive and other; both bases
+4 Benefactive and other; only transitive
+5 Non-benefactive object; both bases
+6 Non-benefactive object; only transitive
+7 Non-benefactive object; only intransitive
+8 No applicative construction","FALSE
+TRUE","8-1/2/3/4/5/6/7","Maria Polinsky",109,"POLAPP2"
+"109A Applicative Constructions","ApplicativeObject","1 Benefactive object; both bases
+2 Benefactive object; only transitive
+3 Benefactive and other; both bases
+4 Benefactive and other; only transitive
+5 Non-benefactive object; both bases
+6 Non-benefactive object; only transitive
+7 Non-benefactive object; only intransitive
+8 No applicative construction","benefactive object
+non-benefactive object","1/2/3/4-5/6/7","Maria Polinsky",109,"POLAPP0"
+"111A Nonperiphrastic Causative Constructions","NonperiphrasticCausative.Presence","1 Neither
+2 Morphological but no compound
+3 Compound but no morphological
+4 Both","FALSE
+TRUE","1-2/3/4","Jae Jung Song",111,"SONNON2"
+"112A Negative Morphemes","NegationType","1 Negative affix
+2 Negative particle
+3 Negative auxiliary verb
+4 Negative word, unclear if verb or particle
+5 Variation between negative word and affix
+6 Double negation","simple
+double","1/2/3/4/5-6","Matthew S. Dryer",112,"DRYNEG2"
+"113A Symmetric and Asymmetric Standard Negation","NegationSymmetry","1 Symmetric
+2 Asymmetric
+3 Both","symmetric
+asymmetric","1-2","Matti Miestamo",113,"MIESYM0"
+"115A Negative Indefinite Pronouns and Predicate Negation","PredNegAndNegIndef.v1","1 Predicate negation also present
+2 No predicate negation
+3 Mixed behaviour
+4 Negative existential construction","can cooccur
+cannot cooccur","1/3-2","Martin Haspelmath",115,"HASNEG2"
+"115A Negative Indefinite Pronouns and Predicate Negation","PredNegAndNegIndef.v2","1 Predicate negation also present
+2 No predicate negation
+3 Mixed behaviour
+4 Negative existential construction","predicate negation also present
+no predicate negation","1-2","Martin Haspelmath",115,"HASNEG0"
+"116A Polar Questions","QvsDeclDistinction.Presence","1 Question particle
+2 Interrogative verb morphology
+3 Mixture of previous two types
+4 Interrogative word order
+5 Absence of declarative morphemes
+6 Interrogative intonation only
+7 No interrogative-declarative distinction","FALSE
+TRUE","7-1/2/3/4/5/6","Matthew S. Dryer",116,"DRYPOQ2"
+"118A Predicative Adjectives","PredAdjCoding","1 Verbal encoding
+2 Nonverbal encoding
+3 Mixed","verbal
+nonverbal","1-2","Leon Stassen",118,"STAADJ0"
+"124A 'Want' Complement Subjects","WantCoding","1 Subject is left implicit
+2 Subject is expressed overtly
+3 Both construction types exist
+4 Desiderative verbal affix
+5 Desiderative particle","implicit subject
+explicit subject
+desiderative","1-2-4/5","Martin Haspelmath",124,"HASWAN02"
+"124A 'Want' Complement Subjects","WantCodingHeadedness","1 Subject is left implicit
+2 Subject is expressed overtly
+3 Both construction types exist
+4 Desiderative verbal affix
+5 Desiderative particle","headed by 'want'
+headed by complement","1/2-4/5","Martin Haspelmath",124,"HASWAN03"
+"124A 'Want' Complement Subjects","WantCodingSubjects","1 Subject is left implicit
+2 Subject is expressed overtly
+3 Both construction types exist
+4 Desiderative verbal affix
+5 Desiderative particle","implicit
+overt","1-2","Martin Haspelmath",124,"HASWAN01"
+"131A Numeral Bases","NumeralBases","1 Decimal
+2 Hybrid vigesimal-decimal
+3 Pure vigesimal
+4 Other base
+5 Extended body-part system
+6 Restricted","decimal
+vigesimal
+other base
+extended body-part system
+restricted","1-2/3-4-5-6","Bernard Comrie",131,"COMNUM5"
+"136A M-T Pronouns","M-TPro.Presence","1 No M-T pronouns
+2 M-T pronouns, paradigmatic
+3 M-T pronouns, non-paradigmatic","FALSE
+TRUE","1-2/3","Johanna Nichols and David Peterson",136,"NICMTP2"
+"137A N-M Pronouns","N-MPro.Presence","1 No N-M pronouns
+2 N-M pronouns, paradigmatic
+3 N-M pronouns, non-paradigmatic","FALSE
+TRUE","1-2/3","Johanna Nichols and David Peterson",137,"NICNMP2"
+"103A Third Person Zero of Verbal Person Marking","VAgr3.zero.Presence","1 No person marking
+2 No zero realization
+3 Zero in all 3rd person forms
+4 Zero in all 3sg forms
+5 Zero in some 3sg forms
+6 Zero only in 3rd nonsingular","FALSE
+TRUE","2-3/4/5/6","Anna Siewierska",103,"SIEZER0"
+"14A Fixed Stress Locations","FixedStress.binned","1 No fixed stress
+2 Initial
+3 Second
+4 Third
+5 Antepenultimate
+6 Penultimate
+7 Ultimate","trochaic
+iambic","2/5/6-3/4/7","Rob Goedemans and Harry van der Hulst",14,"GOEFIX0"
+"102A Verbal Person Marking","VAgrType","1 A or P argument
+2 Both the A and P arguments
+3 No person marking
+4 Only the A argument
+5 Only the P argument","A only
+P only
+A or P
+A and P","4-5-1-2","Anna Siewierska",102,"SIEVPA02"
+"100A Alignment of Verbal Person Marking","VAgrAlignment","1 Accusative
+2 Active
+3 Ergative
+4 Hierarchical
+5 Neutral
+6 Split","accusative
+ergative
+active
+hierarchical
+split","1-3-2-4-6","Anna Siewierska",100,"SIEALI0"
+"62A Action Nominal Constructions","ActionNominals.Presence","1 Double-Possessive
+2 Ergative-Possessive
+3 Mixed
+4 No action nominals
+5 Other
+6 Possessive-Accusative
+7 Restricted
+8 Sentential","FALSE
+TRUE","4-1/2/3/5/6/7/8","Maria Koptjevskaja-Tamm",62,"KOPNOM2"
+"54A Distributive Numerals","DistributiveNumerals.Presence","1 No distributive numerals
+2 Marked by reduplication
+3 Marked by prefix
+4 Marked by suffix
+5 Marked by preceding word
+6 Marked by following word
+7 Marked by mixed or other strategies","FALSE
+TRUE
+","1-2/3/4/5/6/7","David Gil",54,"GILDIS2"
+"48A Person Marking on Adpositions","Adpositions.Presence","1 No adpositions
+2 No person marking
+3 Pronouns and nouns
+4 Pronouns only","FALSE
+TRUE","1-2/3/4","Dik Bakker",48,"BAKADP2"
+"8A Lateral Consonants","Laterals.Presence","1 No laterals
+2 /l/ and lateral obstruent
+3 /l/, no obstruent laterals
+4 Laterals, but no /l/, no obstruent laterals
+5 No /l/, but lateral obstruents","FALSE
+TRUE","1-2/3/4/5","Ian Maddieson",8,"MADLAT2"
+"123A Relativization on Obliques","Rel.Obl.Strategy","1 Gap
+2 Non-reduction
+3 Pronoun-retention
+4 Relative pronoun
+5 Not possible
+","Gap
+Non-reduction
+Pronoun-retention
+Relative pronoun","1-2-3-4",NA,NA,NA
+"123A Relativization on Obliques","Rel.Obl.Presence","1 Gap
+2 Non-reduction
+3 Pronoun-retention
+4 Relative pronoun
+5 Not possible
+","TRUE
+FALSE","1/2/3/4-5",NA,NA,NA
+"46A Indefinite Pronouns","Indef.Pro.Source","1 Mixed
+2 Existential construction
+3 Generic-noun-based
+4 Interrogative-based
+5 Special","Existential construction
+Generic-noun-based
+Interrogative-based","2-3-4",NA,NA,NA
+"52A Comitatives and Instrumentals","Com.Instr.Identity.Presence","1 Mixed
+2 Differentiation
+3 Identity","TRUE
+FALSE","3-1/2",NA,NA,NA
+"72A Imperative-Hortative Systems","Imp.Hort.System","1 Both types of system
+2 Maximal system
+3 Minimal system
+4 Neither type of system","Maximal system
+minimal system
+Neither type of system","2-3-4",NA,NA,NA
+"114A Subtypes of Asymmetric Standard Negation","Subtypes.Asymm.Neg","1 A/Cat
+2 A/Fin
+3 A/Fin and A/Cat
+4 A/Fin and A/NonReal
+5 A/NonReal
+6 A/NonReal and A/Cat
+7 Non-assignable","A/Cat
+A/Fin
+A/Fin and A/Cat
+A/Fin and A/NonReal
+A/NonReal
+A/NonReal and A/Cat","1-2-3-4-5-6",NA,NA,NA
+"46A Indefinite Pronouns",NA,NA,NA,NA,NA,NA,NA
+"103A Third Person Zero of Verbal Person Marking",NA,NA,NA,NA,NA,NA,NA
+"104A Order of Person Markers on the Verb",NA,NA,NA,NA,NA,NA,NA
+"105A Ditransitive Constructions: The Verb 'Give'",NA,NA,NA,NA,NA,NA,NA
+"106A Reciprocal Constructions",NA,NA,NA,NA,NA,NA,NA
+"107A Passive Constructions",NA,NA,NA,NA,NA,NA,NA
+"108A Antipassive Constructions",NA,NA,NA,NA,NA,NA,NA
+"109A Applicative Constructions",NA,NA,NA,NA,NA,NA,NA
+"10A Vowel Nasalization",NA,NA,NA,NA,NA,NA,NA
+"110A Periphrastic Causative Constructions",NA,NA,NA,NA,NA,NA,NA
+"111A Nonperiphrastic Causative Constructions",NA,NA,NA,NA,NA,NA,NA
+"112A Negative Morphemes",NA,NA,NA,NA,NA,NA,NA
+"115A Negative Indefinite Pronouns and Predicate Negation",NA,NA,NA,NA,NA,NA,NA
+"116A Polar Questions",NA,NA,NA,NA,NA,NA,NA
+"117A Predicative Possession",NA,NA,NA,NA,NA,NA,NA
+"118A Predicative Adjectives",NA,NA,NA,NA,NA,NA,NA
+"119A Nominal and Locational Predication",NA,NA,NA,NA,NA,NA,NA
+"11A Front Rounded Vowels",NA,NA,NA,NA,NA,NA,NA
+"120A Zero Copula for Predicate Nominals",NA,NA,NA,NA,NA,NA,NA
+"121A Comparative Constructions",NA,NA,NA,NA,NA,NA,NA
+"122A Relativization on Subjects",NA,NA,NA,NA,NA,NA,NA
+"123A Relativization on Obliques",NA,NA,NA,NA,NA,NA,NA
+"124A 'Want' Complement Subjects",NA,NA,NA,NA,NA,NA,NA
+"125A Purpose Clauses",NA,NA,NA,NA,NA,NA,NA
+"126A 'When' Clauses",NA,NA,NA,NA,NA,NA,NA
+"127A Reason Clauses",NA,NA,NA,NA,NA,NA,NA
+"128A Utterance Complement Clauses",NA,NA,NA,NA,NA,NA,NA
+"129A Hand and Arm",NA,NA,NA,NA,NA,NA,NA
+"12A Syllable Structure",NA,NA,NA,NA,NA,NA,NA
+"130A Finger and Hand",NA,NA,NA,NA,NA,NA,NA
+"131A Numeral Bases",NA,NA,NA,NA,NA,NA,NA
+"136A M-T Pronouns",NA,NA,NA,NA,NA,NA,NA
+"13A Tone",NA,NA,NA,NA,NA,NA,NA
+"14A Fixed Stress Locations",NA,NA,NA,NA,NA,NA,NA
+"17A Rhythm Types",NA,NA,NA,NA,NA,NA,NA
+"19A Presence of Uncommon Consonants",NA,NA,NA,NA,NA,NA,NA
+"1A Consonant Inventories",NA,NA,NA,NA,NA,NA,NA
+"26A Prefixing vs. Suffixing in Inflectional Morphology",NA,NA,NA,NA,NA,NA,NA
+"27A Reduplication",NA,NA,NA,NA,NA,NA,NA
+"28A Case Syncretism",NA,NA,NA,NA,NA,NA,NA
+"29A Syncretism in Verbal Person/Number Marking",NA,NA,NA,NA,NA,NA,NA
+"2A Vowel Quality Inventories",NA,NA,NA,NA,NA,NA,NA
+"30A Number of Genders",NA,NA,NA,NA,NA,NA,NA
+"31A Sex-based and Non-sex-based Gender Systems",NA,NA,NA,NA,NA,NA,NA
+"32A Systems of Gender Assignment",NA,NA,NA,NA,NA,NA,NA
+"33A Coding of Nominal Plurality",NA,NA,NA,NA,NA,NA,NA
+"34A Occurrence of Nominal Plurality",NA,NA,NA,NA,NA,NA,NA
+"35A Plurality in Independent Personal Pronouns",NA,NA,NA,NA,NA,NA,NA
+"36A The Associative Plural",NA,NA,NA,NA,NA,NA,NA
+"37A Definite Articles",NA,NA,NA,NA,NA,NA,NA
+"38A Indefinite Articles",NA,NA,NA,NA,NA,NA,NA
+"39A Inclusive/Exclusive Distinction in Independent Pronouns",NA,NA,NA,NA,NA,NA,NA
+"3A Consonant-Vowel Ratio",NA,NA,NA,NA,NA,NA,NA
+"40A Inclusive/Exclusive Distinction in Verbal Inflection",NA,NA,NA,NA,NA,NA,NA
+"41A Distance Contrasts in Demonstratives",NA,NA,NA,NA,NA,NA,NA
+"42A Pronominal and Adnominal Demonstratives",NA,NA,NA,NA,NA,NA,NA
+"44A Gender Distinctions in Independent Personal Pronouns",NA,NA,NA,NA,NA,NA,NA
+"45A Politeness Distinctions in Pronouns",NA,NA,NA,NA,NA,NA,NA
+"47A Intensifiers and Reflexive Pronouns",NA,NA,NA,NA,NA,NA,NA
+"48A Person Marking on Adpositions",NA,NA,NA,NA,NA,NA,NA
+"49A Number of Cases",NA,NA,NA,NA,NA,NA,NA
+"4A Voicing in Plosives and Fricatives",NA,NA,NA,NA,NA,NA,NA
+"51A Position of Case Affixes",NA,NA,NA,NA,NA,NA,NA
+"52A Comitatives and Instrumentals",NA,NA,NA,NA,NA,NA,NA
+"53A Ordinal Numerals",NA,NA,NA,NA,NA,NA,NA
+"54A Distributive Numerals",NA,NA,NA,NA,NA,NA,NA
+"55A Numeral Classifiers",NA,NA,NA,NA,NA,NA,NA
+"56A Conjunctions and Universal Quantifiers",NA,NA,NA,NA,NA,NA,NA
+"57A Position of Pronominal Possessive Affixes",NA,NA,NA,NA,NA,NA,NA
+"60A Genitives, Adjectives and Relative Clauses",NA,NA,NA,NA,NA,NA,NA
+"61A Adjectives without Nouns",NA,NA,NA,NA,NA,NA,NA
+"62A Action Nominal Constructions",NA,NA,NA,NA,NA,NA,NA
+"63A Noun Phrase Conjunction",NA,NA,NA,NA,NA,NA,NA
+"64A Nominal and Verbal Conjunction",NA,NA,NA,NA,NA,NA,NA
+"65A Perfective/Imperfective Aspect",NA,NA,NA,NA,NA,NA,NA
+"66A The Past Tense",NA,NA,NA,NA,NA,NA,NA
+"67A The Future Tense",NA,NA,NA,NA,NA,NA,NA
+"68A The Perfect",NA,NA,NA,NA,NA,NA,NA
+"69A Position of Tense-Aspect Affixes",NA,NA,NA,NA,NA,NA,NA
+"6A Uvular Consonants",NA,NA,NA,NA,NA,NA,NA
+"70A The Morphological Imperative",NA,NA,NA,NA,NA,NA,NA
+"71A The Prohibitive",NA,NA,NA,NA,NA,NA,NA
+"72A Imperative-Hortative Systems",NA,NA,NA,NA,NA,NA,NA
+"73A The Optative",NA,NA,NA,NA,NA,NA,NA
+"74A Situational Possibility",NA,NA,NA,NA,NA,NA,NA
+"75A Epistemic Possibility",NA,NA,NA,NA,NA,NA,NA
+"76A Overlap between Situational and Epistemic Modal Marking",NA,NA,NA,NA,NA,NA,NA
+"77A Semantic Distinctions of Evidentiality",NA,NA,NA,NA,NA,NA,NA
+"78A Coding of Evidentiality",NA,NA,NA,NA,NA,NA,NA
+"79A Suppletion According to Tense and Aspect",NA,NA,NA,NA,NA,NA,NA
+"7A Glottalized Consonants",NA,NA,NA,NA,NA,NA,NA
+"80A Verbal Number and Suppletion",NA,NA,NA,NA,NA,NA,NA
+"82A Order of Subject and Verb",NA,NA,NA,NA,NA,NA,NA
+"83A Order of Object and Verb",NA,NA,NA,NA,NA,NA,NA
+"84A Order of Object, Oblique, and Verb",NA,NA,NA,NA,NA,NA,NA
+"85A Order of Adposition and Noun Phrase",NA,NA,NA,NA,NA,NA,NA
+"86A Order of Genitive and Noun",NA,NA,NA,NA,NA,NA,NA
+"87A Order of Adjective and Noun",NA,NA,NA,NA,NA,NA,NA
+"88A Order of Demonstrative and Noun",NA,NA,NA,NA,NA,NA,NA
+"89A Order of Numeral and Noun",NA,NA,NA,NA,NA,NA,NA
+"8A Lateral Consonants",NA,NA,NA,NA,NA,NA,NA
+"90A Order of Relative Clause and Noun",NA,NA,NA,NA,NA,NA,NA
+"91A Order of Degree Word and Adjective",NA,NA,NA,NA,NA,NA,NA
+"92A Position of Polar Question Particles",NA,NA,NA,NA,NA,NA,NA
+"93A Position of Interrogative Phrases in Content Questions",NA,NA,NA,NA,NA,NA,NA
+"94A Order of Adverbial Subordinator and Clause",NA,NA,NA,NA,NA,NA,NA
+"98A Alignment of Case Marking of Full Noun Phrases",NA,NA,NA,NA,NA,NA,NA
+"99A Alignment of Case Marking of Pronouns",NA,NA,NA,NA,NA,NA,NA
+"9A The Velar Nasal",NA,NA,NA,NA,NA,NA,NA
+"100A Alignment of Verbal Person Marking",NA,NA,NA,NA,NA,NA,NA
+"108B Productivity of the Antipassive Construction",NA,NA,NA,NA,NA,NA,NA
+"109B Other Roles of Applied Objects",NA,NA,NA,NA,NA,NA,NA
+"10B Nasal Vowels in West Africa",NA,NA,NA,NA,NA,NA,NA
+"113A Symmetric and Asymmetric Standard Negation",NA,NA,NA,NA,NA,NA,NA
+"114A Subtypes of Asymmetric Standard Negation",NA,NA,NA,NA,NA,NA,NA
+"130B Cultural Categories of Languages with Identity of 'Finger' and 'Hand'",NA,NA,NA,NA,NA,NA,NA
+"132A Number of Non-Derived Basic Colour Categories",NA,NA,NA,NA,NA,NA,NA
+"133A Number of Basic Colour Categories",NA,NA,NA,NA,NA,NA,NA
+"134A Green and Blue",NA,NA,NA,NA,NA,NA,NA
+"135A Red and Yellow",NA,NA,NA,NA,NA,NA,NA
+"136B M in First Person Singular",NA,NA,NA,NA,NA,NA,NA
+"137A N-M Pronouns",NA,NA,NA,NA,NA,NA,NA
+"137B M in Second Person Singular",NA,NA,NA,NA,NA,NA,NA
+"139A Irregular Negatives in Sign Languages",NA,NA,NA,NA,NA,NA,NA
+"140A Question Particles in Sign Languages",NA,NA,NA,NA,NA,NA,NA
+"141A Writing Systems",NA,NA,NA,NA,NA,NA,NA
+"142A Para-Linguistic Usages of Clicks",NA,NA,NA,NA,NA,NA,NA
+"143A Order of Negative Morpheme and Verb",NA,NA,NA,NA,NA,NA,NA
+"143B Obligatory Double Negation",NA,NA,NA,NA,NA,NA,NA
+"143C Optional Double Negation",NA,NA,NA,NA,NA,NA,NA
+"143D Optional Triple Negation",NA,NA,NA,NA,NA,NA,NA
+"143E Preverbal Negative Morphemes",NA,NA,NA,NA,NA,NA,NA
+"143F Postverbal Negative Morphemes",NA,NA,NA,NA,NA,NA,NA
+"143G Minor morphological means of signaling negation",NA,NA,NA,NA,NA,NA,NA
+"144A Position of Negative Word With Respect to Subject, Object, and Verb",NA,NA,NA,NA,NA,NA,NA
+"144B Position of negative words relative to beginning and end of clause and with respect to adjacency to verb",NA,NA,NA,NA,NA,NA,NA
+"144C Languages with different word order in negative clauses",NA,NA,NA,NA,NA,NA,NA
+"144D The Position of Negative Morphemes in SVO Languages",NA,NA,NA,NA,NA,NA,NA
+"144E Multiple Negative Constructions in SVO Languages",NA,NA,NA,NA,NA,NA,NA
+"144F Obligatory Double Negation in SVO languages",NA,NA,NA,NA,NA,NA,NA
+"144G Optional Double Negation in SVO languages",NA,NA,NA,NA,NA,NA,NA
+"144H NegSVO Order",NA,NA,NA,NA,NA,NA,NA
+"144I SNegVO Order",NA,NA,NA,NA,NA,NA,NA
+"144J SVNegO Order",NA,NA,NA,NA,NA,NA,NA
+"144K SVONeg Order",NA,NA,NA,NA,NA,NA,NA
+"144L The Position of Negative Morphemes in SOV Languages",NA,NA,NA,NA,NA,NA,NA
+"144M Multiple Negative Constructions in SOV Languages",NA,NA,NA,NA,NA,NA,NA
+"144N Obligatory Double Negation in SOV languages",NA,NA,NA,NA,NA,NA,NA
+"144O Optional Double Negation in SOV languages",NA,NA,NA,NA,NA,NA,NA
+"144P NegSOV Order",NA,NA,NA,NA,NA,NA,NA
+"144Q SNegOV Order",NA,NA,NA,NA,NA,NA,NA
+"144R SONegV Order",NA,NA,NA,NA,NA,NA,NA
+"144S SOVNeg Order",NA,NA,NA,NA,NA,NA,NA
+"144T The Position of Negative Morphemes in Verb-Initial Languages",NA,NA,NA,NA,NA,NA,NA
+"144U Double negation in verb-initial languages",NA,NA,NA,NA,NA,NA,NA
+"144V Verb-Initial with Preverbal Negative",NA,NA,NA,NA,NA,NA,NA
+"144W Verb-Initial with Negative that is Immediately Postverbal or between Subject and Object",NA,NA,NA,NA,NA,NA,NA
+"144X Verb-Initial with Clause-Final Negative",NA,NA,NA,NA,NA,NA,NA
+"144Y The Position of Negative Morphemes in Object-Initial Languages",NA,NA,NA,NA,NA,NA,NA
+"15A Weight-Sensitive Stress",NA,NA,NA,NA,NA,NA,NA
+"16A Weight Factors in Weight-Sensitive Stress Systems",NA,NA,NA,NA,NA,NA,NA
+"18A Absence of Common Consonants",NA,NA,NA,NA,NA,NA,NA
+"20A Fusion of Selected Inflectional Formatives",NA,NA,NA,NA,NA,NA,NA
+"21A Exponence of Selected Inflectional Formatives",NA,NA,NA,NA,NA,NA,NA
+"21B Exponence of Tense-Aspect-Mood Inflection",NA,NA,NA,NA,NA,NA,NA
+"22A Inflectional Synthesis of the Verb",NA,NA,NA,NA,NA,NA,NA
+"23A Locus of Marking in the Clause",NA,NA,NA,NA,NA,NA,NA
+"24A Locus of Marking in Possessive Noun Phrases",NA,NA,NA,NA,NA,NA,NA
+"25A Locus of Marking: Whole-language Typology",NA,NA,NA,NA,NA,NA,NA
+"25B Zero Marking of A and P Arguments",NA,NA,NA,NA,NA,NA,NA
+"39B Inclusive/Exclusive Forms in Pama-Nyungan",NA,NA,NA,NA,NA,NA,NA
+"43A Third Person Pronouns and Demonstratives",NA,NA,NA,NA,NA,NA,NA
+"50A Asymmetrical Case-Marking",NA,NA,NA,NA,NA,NA,NA
+"58A Obligatory Possessive Inflection",NA,NA,NA,NA,NA,NA,NA
+"58B Number of Possessive Nouns",NA,NA,NA,NA,NA,NA,NA
+"59A Possessive Classification",NA,NA,NA,NA,NA,NA,NA
+"5A Voicing and Gaps in Plosive Systems",NA,NA,NA,NA,NA,NA,NA
+"79B Suppletion in Imperatives and Hortatives",NA,NA,NA,NA,NA,NA,NA
+"81A Order of Subject, Object and Verb",NA,NA,NA,NA,NA,NA,NA
+"81B Languages with two Dominant Orders of Subject, Object, and Verb",NA,NA,NA,NA,NA,NA,NA
+"90B Prenominal relative clauses",NA,NA,NA,NA,NA,NA,NA
+"90C Postnominal relative clauses",NA,NA,NA,NA,NA,NA,NA
+"90D Internally-headed relative clauses",NA,NA,NA,NA,NA,NA,NA
+"90E Correlative relative clauses",NA,NA,NA,NA,NA,NA,NA
+"90F Adjoined relative clauses",NA,NA,NA,NA,NA,NA,NA
+"90G Double-headed relative clauses",NA,NA,NA,NA,NA,NA,NA
+"95A Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase",NA,NA,NA,NA,NA,NA,NA
+"96A Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun",NA,NA,NA,NA,NA,NA,NA
+"97A Relationship between the Order of Object and Verb and the Order of Adjective and Noun",NA,NA,NA,NA,NA,NA,NA
